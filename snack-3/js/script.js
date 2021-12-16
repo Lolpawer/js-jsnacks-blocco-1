@@ -2,7 +2,7 @@ let output = document.getElementById("output");
 let index = 1;
 let max = 1000;
 
-while (2 ** index <= 1000) {
-    output.innerHTML += `${2 ** index} <br/>`;
+while (index ** 2 <= 1000) {
+    output.innerHTML += `${index ** 2} <br/>`;
     index++;
 }
